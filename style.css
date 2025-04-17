@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.title,
+.error_msg {
+  margin: 15px;
+  text-align: center;
+  font-size: 42px;
+}
+
+.post {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+.post__title {
+  padding: 5px;
+  font-size: 30px;
+}
+.post__body {
+  padding: 5px;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.error_msg {
+  color: red;
+}
