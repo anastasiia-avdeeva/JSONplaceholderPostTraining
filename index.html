@@ -21,6 +21,11 @@
             placeholder="Заголовок поста"
             required
           />
+          <p class="form__error-msg" id="titleErr">
+            * Заголовок не должен быть пустым!
+          </p>
+        </div>
+        <div class="form__input-group">
           <textarea
             class="form__input"
             name="postBody"
@@ -30,11 +35,15 @@
             rows="5"
             required
           ></textarea>
+          <p class="form__error-msg" id="bodyErr">
+            * Тело поста не должно быть пустым!
+          </p>
           <button class="form__btn">Опубликовать</button>
         </div>
       </form>
       <div class="posts">
         <h2 class="posts__title">Все посты</h2>
+        <p class="posts__info">Здесь пока пусто...</p>
       </div>
     </main>
     <script src="script.js"></script>
