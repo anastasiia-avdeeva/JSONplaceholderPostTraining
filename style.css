@@ -13,19 +13,71 @@ h6 {
   margin: 0;
 }
 
-.title,
-.error_msg {
+body {
+  background-color: rgb(125, 173, 215);
+}
+
+.title {
   margin: 15px;
-  text-align: center;
   font-size: 42px;
+}
+
+.form__title,
+.posts__title,
+.error-msg {
+  font-size: 35px;
+  font-style: italic;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.form__input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form__input-title, .form__btn {
+  height: 40px;
+  font-weight: bold;
+}
+.form__input, .form__btn {
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 12px;
+}
+.form__btn {
+  width: 200px;
+  align-self: flex-end;
+  background-color: rgb(31, 126, 170);
+}
+
+.post,
+.form__input {
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  background-color: white;
 }
 
 .post {
   margin: 15px;
-  padding: 10px;
+  padding: 5px;
+  min-width: 766px;
   border-radius: 12px;
   border: 1px solid lightgrey;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  background-color: white;
 }
 .post__title {
   padding: 5px;
