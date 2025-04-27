@@ -24,7 +24,8 @@ body {
 
 .form__title,
 .posts__title,
-.error-msg {
+.error-msg,
+.posts__info {
   font-size: 35px;
   font-style: italic;
   text-align: center;
@@ -48,6 +49,10 @@ body {
   flex-direction: column;
   gap: 10px;
 }
+.form__error-msg {
+  display: none;
+  color: rgb(208, 72, 72);
+}
 .form__input-title, .form__btn {
   height: 40px;
   font-weight: bold;
@@ -65,6 +70,7 @@ body {
 
 .post,
 .form__input {
+  min-width: 766px;
   border: 1px solid lightgrey;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
   background-color: white;
@@ -73,7 +79,6 @@ body {
 .post {
   margin: 15px;
   padding: 5px;
-  min-width: 766px;
   border-radius: 12px;
   border: 1px solid lightgrey;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
