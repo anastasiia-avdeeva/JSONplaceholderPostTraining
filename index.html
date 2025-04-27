@@ -10,7 +10,7 @@
   <body>
     <main class="main">
       <h1 class="title">Personal Blog</h1>
-      <form class="form">
+      <form class="form" name="newPost">
         <h2 class="form__title">Новый пост</h2>
         <div class="form__input-group">
           <input
@@ -19,6 +19,7 @@
             class="form__input form__input-title"
             id="postTitle"
             placeholder="Заголовок поста"
+            required
           />
           <textarea
             class="form__input"
@@ -27,6 +28,7 @@
             placeholder="Текст поста"
             cols="60"
             rows="5"
+            required
           ></textarea>
           <button class="form__btn">Опубликовать</button>
         </div>
