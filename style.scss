@@ -13,8 +13,12 @@ h6 {
   margin: 0;
 }
 
-button {
-  cursor: pointer;
+ul {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style: none;
+  }
 }
 
 body {
@@ -78,6 +82,7 @@ body {
     border-color: rgb(35, 144, 184);
     background-color: rgb(35, 144, 184);
     color: black;
+    cursor: pointer;
   }
 
   &__btn:disabled {
