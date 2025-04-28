@@ -13,6 +13,10 @@ h6 {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   background-color: rgb(127, 167, 201);
 }
@@ -77,8 +81,9 @@ body {
   }
 
   &__btn:disabled {
+    border-color: rgb(149, 199, 226);
     background-color: rgb(149, 199, 226);
-    color: rgb(119, 118, 118);
+    color: rgb(78, 78, 78);
   }
 }
 
