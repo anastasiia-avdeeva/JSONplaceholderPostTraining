@@ -122,7 +122,7 @@ function capitalizeFirstLetter(str) {
 
 function renderErrorMsg() {
   if (!document.querySelector(".posts__error-msg")) {
-    const errorElem = createElemWithClass("p", ".posts__error-msg");
+    const errorElem = createElemWithClass("p", "posts__error-msg");
     errorElem.textContent = ERROR_MSG;
     postsContainer.append(errorElem);
   }
